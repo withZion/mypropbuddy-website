@@ -1,0 +1,26 @@
+# This repo is public. Only the site itself belongs here.
+
+# Secrets and local Cloudflare state
+.env
+.env.*
+*.env
+.dev.vars
+.dev.vars.*
+.wrangler/
+node_modules/
+
+# Private working notes stay in the (private) project repo
+/design.md
+*.design.md
+/notes/
+*.private.*
+.claude/
+
+# Editor and OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
